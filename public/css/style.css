@@ -1,0 +1,79 @@
+/* public/css/style.css */
+
+/* Скидаємо відступи, лінії, списки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header, footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Ваші додаткові класи для layout’у */
+  .flex { display: flex; }
+  .justify-between { justify-content: space-between; }
+  .items-center { align-items: center; }
+  .py-3 { padding-top: 1rem; padding-bottom: 1rem; }
+  .px-4 { padding-left: 1rem; padding-right: 1rem; }
+  /* …тощо… */
+  
+  .hero {
+    position: relative;
+    padding: 4rem 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000; /* запасний колір */
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin: 0 .5rem;
+    padding: .75rem 2rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    transition: background .3s;
+  }
+  
+  .btn-primary {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background-color: #2563eb;
+  }
+  
+  .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+  }
+  .btn-outline:hover {
+    background: #fff;
+    color: #222;
+  }
+  

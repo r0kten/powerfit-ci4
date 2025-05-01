@@ -1,0 +1,47 @@
+{
+  "name": "fitness-club",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+      "build:css": "tailwindcss -i public/css/app.css -o public/css/app.css --minify"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0kten/powerfit-ci4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0kten/powerfit-ci4/issues"
+  },
+  "homepage": "https://github.com/r0kten/powerfit-ci4#readme",
+
+  "dependencies": {
+    "browserslist": "^4.24.4",
+    "caniuse-lite": "^1.0.30001716",
+    "electron-to-chromium": "^1.5.145",
+    "esbuild": "^0.25.3",
+    "escalade": "^3.2.0",
+    "fdir": "^6.4.4",
+    "fraction.js": "^4.3.7",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.2",
+    "postcss-value-parser": "^4.2.0",
+    "rollup": "^4.40.1",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.13",
+    "update-browserslist-db": "^1.1.3"
+  }
+}

@@ -4,9 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerFit - Фітнес Клуб</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Custom CSS (можна винести у окремий CSS-файл) */
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+        <style>
         .hero {
             background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?...');
             background-size: cover;
